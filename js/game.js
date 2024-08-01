@@ -428,3 +428,7 @@ var interval = setInterval(function() {
 }, 50)
 
 setInterval(function() {needCanvasUpdate = true}, 500)
+
+function gba(...args){
+	return getBuyableAmount(...args);
+}
